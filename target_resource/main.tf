@@ -9,7 +9,7 @@ resource "aws_s3_bucket" "name" {
 }
 
 resource "aws_vpc" "name" {
-  cidr_block = "0.0.0.0/18"
+  cidr_block = "10.0.0.0/18"
   tags = {
     name = "myvpc"
   }
